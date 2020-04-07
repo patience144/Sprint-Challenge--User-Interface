@@ -1,6 +1,7 @@
 body{
-    display: inline-flex;
-    flex-direction: row;
+    width: 900px;
+    margin: 0 auto;
+    
 
 }
 
@@ -12,3 +13,38 @@ body{
     padding: 20px 2%;
     font-size: 14px;
 }
+
+.flex-container2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 20px;
+    
+    
+}
+
+ .box {
+     width: 300px;
+     margin: 50px;
+     
+     
+ }
+
+ .how{
+     width: 300px;
+
+ }
+
+ .place {
+     width: 300px;
+
+ }
+
+ .collab {
+     width: 300px;
+ }
+
+ .footer {
+     background-color: black;
+     color: white;
+     justify-content: space-between;
+ }
